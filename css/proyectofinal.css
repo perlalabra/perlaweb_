@@ -1,0 +1,127 @@
+/*DOCUMENTO*/
+*{ background-color: #FFFEF5; }
+
+* { margin: 0;
+    padding: 0; }
+
+
+
+main, article, aside, section, div, header, nav { box-sizing: border-box; }
+
+/*header*/
+
+.imagen img { width: 100%; }
+
+.oferta p { border-radius: 20px; 
+           text-align: center;
+           color: white;
+           margin-top: 10px;
+           background-color: #FF8AAB;}
+
+header i { background-color: #FFFEF5; 
+           color: #FF8AAB;
+           font-size: 4em; 
+           }
+
+.cabecera { display: flex;
+            flex-direction: row; 
+            align-items: center;}
+
+nav i { font-size: 2em; 
+        }
+
+#cabecera nav { background-color: #FF8AAB; }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FF8AAB }
+
+
+
+
+
+/*main*/
+
+
+h2 { font-weight: bolder;
+     font-size: 50px;
+     color: white;
+     text-align: center;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     margin-top: 20px;
+     margin-bottom: 20px;}
+
+.rosita { background-color: #F9C0D2; }
+
+.rosa { background-color: #FF8AAB; }
+
+.amarillo { background-color: #FFD8A4; }
+
+h3 { font-weight: bolder;
+    font-size: 50px;
+    color: #FF8AAB;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+
+h4 { font-weight: bold;
+    font-size: 30px;
+    color: #F9C0D2;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+
+img { width: 100%; }
+
+body p, dd { font-family: sans-serif;
+       font-weight: lighter; 
+       color: #FF8AAB;
+       font-size: 20px;
+       text-align: justify;}
+
+.bienvenida { color: #F9C0D2;
+              font-style: italic;
+              font-size: 30px; 
+              text-align: center;}
+
+
+.item input, textarea { width: 100%;
+        padding: 8px;
+        margin-bottom: 8px;
+        border-radius: 10px; 
+        }
+
+input { color: #FF8AAB; }
+
+form { padding: 10px; 
+       border-radius: 20px;
+    }
+
+.item input::placeholder, textarea::placeholder { font-style: italic;
+                                  color: #FF8AAB; 
+                                  }
+
+.texto p { font-size: 15px; }
+
+.datos { line-height: 1em; 
+         }
+
+.datos img { margin-bottom: 15px; }
+
+
+/*footer*/
+
+
+footer .creditos { background-color: #FF8AAB; 
+                   color: white;
+                   text-align: center;
+                   padding top: 10px;
+                   padding-bottom: 20px;}
+ 
+
+
+footer { background-color: #FF8AAB; 
+         margin-bottom: 0%;
+         margin-top: 50px;}
+
+.col-12 img { background-color: #FF8AAB; }
